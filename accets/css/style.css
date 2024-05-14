@@ -1,0 +1,80 @@
+:root{
+	--primary-color:#f8f9fa;
+	--secondary-color:#d9ceae30;
+	--color-white:#fff;
+	--color-dark:#000;
+}
+body{
+	background-color:var(--color-white:#fff);
+}
+
+.header{
+	 background-color:var(--primary-color);
+ }
+
+.header h1{
+	color:orange;
+}
+
+.col-8{
+	width:calc(100% * 8/12);
+}
+
+.col-offset-2{
+	margin-left:calc(100% * 2/12);
+}
+
+.button span{
+	color:orange;
+	margin-top:20px;
+
+}
+
+.form-control{
+	margin-top:10px;
+	border-radius:30px;
+	background-color:var(--secondary-color);
+}
+
+.button .btn{
+	border-radius:30px;
+	padding:7px 40px 7px 40px;
+	text-transform:uppercase;
+	color:navy;
+	background-color :orange;
+	margin:40px 5px 20px 40px;
+	font-size:14px;
+	
+}
+
+.button a{
+	padding-left:10px;
+	color:navy;
+}
+
+.flagImg{
+	width:50%;
+	box-shadow: 2px 2px 11px 1px #8e8d8d;
+	top:20px;
+	left:50%;
+	transform:translatex(-50%);
+	position:relative;
+}
+.card{
+	height:320px;
+	box-shadow: 2px 2px 11px 1px #8e8d8d;
+}
+
+.countryInfo ul li{
+	list-style:none;
+	margin-left: 20px;
+	font-size:15px;
+	
+}
+.countryName h4{
+	text-transform:uppercase;
+	color:orange;
+	font-size:17px;
+	font-weight:600px;
+	margin-top:40px;
+}
